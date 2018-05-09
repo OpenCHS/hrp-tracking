@@ -1,0 +1,15 @@
+[
+  {
+    "username": "[[username here]]",
+    "password": "[[password here]]",
+    "catchment_id": "26",
+    "email": "[[email here]]",
+    "phone_number": "[[phone number with +91 code here]]",
+    "org_name": "Organisation Name",
+    "org_id": "9",
+    "is_user": "true",
+    "is_admin": "false",
+    "is_org_admin": "false",
+    "comment": "Udaipur"
+  }
+]
