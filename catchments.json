@@ -1,6 +1,7 @@
 {
   "organisation": "HRP Tracking",
   "catchments": [
+
     {
         "name": "Supervisor's 1",
         "uuid": "a58cba96-14e2-402a-9832-46ac86ea247d",
@@ -54,48 +55,41 @@
       "comment": "Supervisor's Area"
     },
     {
-        "name": "District Incharge's Area",
-        "uuid": "1f3eefe4-135e-437b-b848-ed6d5aeecefb",
-        "type": "District Incharge's Area",
-        "addressLevels": [
-          {
-              "name": "Subcenter 1",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          },
-          {
-              "name": "Subcenter 2",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          },
-          {
-              "name": "Subcenter 3",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          },
-          {
-              "name": "Subcenter 4",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          },
-          {
-              "name": "Subcenter 5",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          },
-          {
-              "name": "Subcenter 6",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          }
-        ],
-      "comment": "District Incharge, YSR Kadapa District"
+    "name": "Khajipeta PHC",
+    "uuid": "950ac21f-5836-4d0a-8f96-4412dd9bc51b",
+    "type": "Khajipeta PHC",
+    "addressLevels": [
+    {
+
+    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
+    },
+    {
+
+    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
+
+    },
+    {
+    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
+    },
+    {
+
+    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
+
+    },
+    {
+
+    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
+
+    },
+    {
+
+    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
+
     }
+    ],
+    "comment": "Khajipeta PHC"
+    }
+
+
   ]
 }

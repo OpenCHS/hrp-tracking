@@ -11,18 +11,6 @@
       "display": "Details",
       "formElements": [
         {
-          "name": "Mother's Name",
-          "uuid": "69858ed5-0b03-44ff-b4c6-046e72568ec8",
-          "keyValues": [],
-          "concept": {
-            "name": "Mother's Name",
-            "uuid": "d39e247d-d2a7-472f-a328-5e0c73adb90a",
-            "dataType": "Text"
-          },
-          "displayOrder": 1,
-          "mandatory": true
-        },
-        {
           "name": "Husband's Name",
           "uuid": "8946eb69-b6ab-47da-ae23-369fb1008ac3",
           "keyValues": [],
@@ -34,18 +22,7 @@
           "displayOrder": 2,
           "mandatory": true
         },
-        {
-          "name": "Mother's Age",
-          "uuid": "48364b49-ccfc-42b7-b246-3a180d37c2ca",
-          "keyValues": [],
-          "concept": {
-            "name": "Mother's Age",
-            "uuid": "5fc83bd9-3b0e-43a4-8b5f-3e23a436f475",
-            "dataType": "Text"
-          },
-          "displayOrder": 3,
-          "mandatory": true
-        },
+
         {
           "name": "SubCentre",
           "uuid": "1e3fc944-df47-40d3-9861-1ec65cbc951f",
@@ -113,8 +90,19 @@
         },
 
         {
+          "name": "Contact Number 2",
+          "uuid": "ac48e8ce-df61-4fb6-be7c-e75d742481cd",
+          "keyValues": [],
+          "concept": {
+            "name": "Contact Number 2",
+            "uuid": "ada801f6-cb34-4ae2-9534-4bfd2b92ed8c"
+          },
+          "validFormat": {
+            "regex": "^[0-9]{10}$",
+            "descriptionKey": "Required10Digits"
+          },
           "displayOrder": 8,
-          "mandatory": false
+          "mandatory": true
         },
 
         {
@@ -130,22 +118,6 @@
             "descriptionKey": "Required10Digits"
           },
           "displayOrder": 9,
-          "mandatory": true
-        },
-
-        {
-          "name": "Contact Number 2",
-          "uuid": "ac48e8ce-df61-4fb6-be7c-e75d742481cd",
-          "keyValues": [],
-          "concept": {
-            "name": "Contact Number 2",
-            "uuid": "ada801f6-cb34-4ae2-9534-4bfd2b92ed8c"
-          },
-          "validFormat": {
-            "regex": "^[0-9]{10}$",
-            "descriptionKey": "Required10Digits"
-          },
-          "displayOrder": 10,
           "mandatory": true
         }
       ]
