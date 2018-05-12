@@ -1,204 +1,152 @@
 {
-  "name": "TT NCD Screening Registration Form",
-  "uuid": "b0a39152-015b-43ee-ba0c-83743256bd57",
-  "formType": "IndividualProfile",
-  "userUUID": "",
+  "name": "HRP Registration From",
+  "uuid": "82fef014-731f-4622-84bc-d9f4cd601706",
+  "formType": "PregnantRegistration",
+  "userUUID": "d92b4c62-8e37-4f99-8b09-53886e1c3a39",
   "formElementGroups": [
     {
-      "uuid": "40b18120-122d-4dee-b318-42b072b9d9bb",
-      "name": "Individual Address",
+      "uuid": "1e7f8c2c-39fc-492f-9f33-d2b06784027e",
+      "name": "Pregnant Registration Details",
       "displayOrder": 1,
-      "display": "Address",
+      "display": "Details",
       "formElements": [
         {
-          "name": "City",
-          "uuid": "8dbd6690-8b4c-43af-bdbc-59b127b4da21",
+          "name": "Mother's Name",
+          "uuid": "69858ed5-0b03-44ff-b4c6-046e72568ec8",
           "keyValues": [],
           "concept": {
-            "name": "City",
-            "uuid": "ac89d406-9630-4d00-8b11-c45fc0cd90ed",
+            "name": "Mother's Name",
+            "uuid": "d39e247d-d2a7-472f-a328-5e0c73adb90a",
             "dataType": "Text"
           },
           "displayOrder": 1,
           "mandatory": true
         },
         {
-          "name": "District",
-          "uuid": "06bb0fa1-1785-4f33-bc84-a4a52c7bbb5f",
-          "keyValues": [],
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Rajasthan District",
-            "uuid": "02ba50a7-8f5d-42f7-ae38-d29bf2e5bfa3",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "d1bcefcd-918e-40b4-a03c-0a29962d503d"
-              },
-              {
-                "uuid": "897a5dbc-95c8-4743-94c2-0e8d21e28c53"
-              },
-              {
-                "uuid": "3cd4d018-e6c5-4509-b871-606a6c757c16"
-              },
-              {
-                "uuid": "7d27eb73-562f-4607-b1d2-63d3cee09fab"
-              },
-              {
-                "uuid": "d238d33f-ff98-4ea0-95ba-6e6a38fff5ca"
-              },
-              {
-                "uuid": "50d0cfa8-65ba-42ca-bfaf-91b9319e5db7"
-              },
-              {
-                "uuid": "adf020a5-cfcf-4aa7-a506-34917d1ff8bf"
-              },
-              {
-                "uuid": "ab53fb84-25ba-4f2f-a914-963fd87b62b6"
-              },
-              {
-                "uuid": "28dd88a3-0084-4395-9d28-aa07ab7b4085"
-              },
-              {
-                "uuid": "03f1c70a-3fdd-4a9b-90bf-9f9f3ab2c499"
-              },
-              {
-                "uuid": "282ea61a-f202-4dc4-8347-8ad368dcc522"
-              },
-              {
-                "uuid": "0258e792-0f6e-4d5b-91b0-4041c3b3b2a2"
-              },
-              {
-                "uuid": "ac6c5260-3ee0-4c9d-afcf-276e4a43ae52"
-              },
-              {
-                "uuid": "a276c02f-c00d-424e-84d1-c3cd4e72cd94"
-              },
-              {
-                "uuid": "fa0b6637-58fe-40f8-bffe-e0b8e6a724a7"
-              },
-              {
-                "uuid": "38776173-f412-452b-a570-2bd97dd95edd"
-              },
-              {
-                "uuid": "853264d8-e777-4995-b974-4e3fb062070a"
-              },
-              {
-                "uuid": "cd22a5cf-dafa-4e21-9910-55f9671bf285"
-              },
-              {
-                "uuid": "a0883236-f539-4eb1-bec1-e29590d7745c"
-              },
-              {
-                "uuid": "a32fc145-6c9f-408c-8c3b-9f96b720c367"
-              },
-              {
-                "uuid": "4157fe85-c463-4470-9ede-871d673861f6"
-              },
-              {
-                "uuid": "8ce8283f-67a0-4595-a88a-221679465593"
-              },
-              {
-                "uuid": "d30ab837-7e76-4181-8610-af46904dc9a4"
-              },
-              {
-                "uuid": "7b0e0a97-dee4-4ac2-88a3-a5109032e8c5"
-              },
-              {
-                "uuid": "bead42ad-18b0-401f-b6be-0b1cfc9ed2f3"
-              },
-              {
-                "uuid": "e72b3f3f-b9d9-4cc2-b506-98ec82eca809"
-              },
-              {
-                "uuid": "9fa4284e-78eb-45cf-8f7b-3cc8f45ef70e"
-              },
-              {
-                "uuid": "c0bec20b-89d1-4316-a50b-b8e53b558ca7"
-              },
-              {
-                "uuid": "9111138e-0531-4624-ae15-cd3459b2a376"
-              },
-              {
-                "uuid": "30dd3a49-b06a-4ae4-a224-9c081a1b7ec9"
-              },
-              {
-                "uuid": "44dff3ec-b604-46fb-b9e9-b08a8d01d211"
-              },
-              {
-                "uuid": "9715c7ea-10f5-40c1-80fc-2e14563d774b"
-              },
-              {
-                "uuid": "ef44ca64-c9d2-4e66-a5e3-7ffbe6af7fe2"
-              },
-              {
-                "uuid": "3e3d6791-1f0c-4015-98dc-8a2b6713b27b"
-              }
-            ]
-          },
-          "displayOrder": 2,
-          "mandatory": true
-        }
-      ]
-    },
-    {
-      "uuid": "8749691b-db18-490b-b4f1-74c92812b3eb",
-      "name": "Personal details",
-      "display": "Personal details",
-      "displayOrder": 2,
-      "formElements": [
-        {
-          "name": "Marital status",
-          "uuid": "17b4b57e-92b1-421b-88f6-1944a0a66564",
-          "type": "SingleSelect",
+          "name": "Husband's Name",
+          "uuid": "8946eb69-b6ab-47da-ae23-369fb1008ac3",
           "keyValues": [],
           "concept": {
-            "uuid": "aa6687c9-ba4d-49a3-9b3e-bba266eb6f32"
-          },
-          "displayOrder": 1,
-          "mandatory": true
-        },
-        {
-          "name": "Identity proof",
-          "uuid": "9502e19a-0d7c-4f6b-a27c-15277971d873",
-          "type": "SingleSelect",
-          "keyValues": [
-            {
-              "key": "ExcludedAnswers",
-              "value": [
-                "Aadhaar"
-              ]
-            }
-          ],
-          "concept": {
-            "uuid": "4a88051c-3723-4a62-8606-c959312906c8"
+            "name": "Father's Name",
+            "uuid": "511fe916-de85-46e1-8da7-11397cf3204e",
+            "dataType": "Text"
           },
           "displayOrder": 2,
           "mandatory": true
         },
         {
-          "name": "Identification number",
-          "uuid": "b9044ec2-adfb-4259-af85-b0dbe9e971aa",
+          "name": "Mother's Age",
+          "uuid": "48364b49-ccfc-42b7-b246-3a180d37c2ca",
           "keyValues": [],
           "concept": {
-            "uuid": "a82d1ed8-7e4d-4994-afff-be252f1b608e"
+            "name": "Mother's Age",
+            "uuid": "5fc83bd9-3b0e-43a4-8b5f-3e23a436f475",
+            "dataType": "Text"
           },
           "displayOrder": 3,
+          "mandatory": true
+        },
+        {
+          "name": "SubCentre",
+          "uuid": "1e3fc944-df47-40d3-9861-1ec65cbc951f",
+          "keyValues": [],
+          "concept": {
+            "name": "SubCentre",
+            "uuid": "86c39b77-f7cb-4fb1-9fa9-f3e855ced648",
+            "dataType": "Text"
+          },
+          "scFormat": {
+            "regex": "^[a-zA-Z ]+$",
+            "descriptionKey": "OnlyLettersAndSpaces"
+          },
+          "displayOrder": 4,
           "mandatory": false
         },
         {
-          "name": "Mobile number",
-          "uuid": "8f7e1348-9546-48cc-b3b0-6325c7d625af",
+          "name": "SupervisorsArea",
+          "uuid": "449c58e1-e855-4220-b68f-e8c06ad1d88a",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "SupervisorsArea",
+            "uuid": "a2240186-cfb7-4387-b109-654da8c089aa",
+            "dataType": "Coded",
+            "answers": [
+              {
+                "name": "Sup1",
+                "uuid": "699cbfce-499d-4799-84e7-d429342a680f"
+              },
+              {
+                "name": "Sup2",
+                "uuid": "b927f38c-6e77-4227-8c06-09b2fc7da10a"
+              },
+              {
+                "name": "sup3",
+                "uuid": "78da7e2a-634c-4877-b98a-6d26c7eb135b"
+              }
+            ]
+          },
+          "displayOrder": 5,
+          "mandatory": true
+        },
+        {
+          "name": "Religion",
+          "uuid": "ea53330d-7693-4ba9-91ab-007547a764d4",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "c922c13c-1fa2-42dd-a7e8-d234b0324870"
+          },
+          "displayOrder": 6,
+          "mandatory": true
+        },
+        {
+          "name": "Caste",
+          "uuid": "b695e240-85c8-47b2-aa8d-e7560c4a3174",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "61ab6413-5c6a-4512-ab6e-7d5cd1439569"
+          },
+          "displayOrder": 7,
+          "mandatory": true
+        },
+
+        {
+          "displayOrder": 8,
+          "mandatory": false
+        },
+
+        {
+          "name": "Contact Number",
+          "uuid": "41116048-f3ee-4e03-9ddb-a431096c3ba9",
           "keyValues": [],
           "concept": {
-            "uuid": "1e4f068d-24c0-4fd3-918e-743cd084c0c8"
+            "name": "Contact Number",
+            "uuid": "239d3eef-d9e9-4a60-864a-7040ed6deabd"
           },
           "validFormat": {
             "regex": "^[0-9]{10}$",
             "descriptionKey": "Required10Digits"
           },
-          "displayOrder": 4,
-          "mandatory": false
+          "displayOrder": 9,
+          "mandatory": true
+        },
+
+        {
+          "name": "Contact Number 2",
+          "uuid": "ac48e8ce-df61-4fb6-be7c-e75d742481cd",
+          "keyValues": [],
+          "concept": {
+            "name": "Contact Number 2",
+            "uuid": "ada801f6-cb34-4ae2-9534-4bfd2b92ed8c"
+          },
+          "validFormat": {
+            "regex": "^[0-9]{10}$",
+            "descriptionKey": "Required10Digits"
+          },
+          "displayOrder": 10,
+          "mandatory": true
         }
       ]
     }
