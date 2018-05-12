@@ -1,5 +1,5 @@
 {
-  "name": "HRP Vitals Tracking form",
+  "name": "HRP Tracking Encounter",
   "uuid": "ac69b647-d1fc-4c7a-bfae-9f2e7fa48592",
   "formType": "Encounter",
   "encounterTypes": [

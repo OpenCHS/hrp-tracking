@@ -23,49 +23,7 @@
           "mandatory": true
         },
 
-        {
-          "name": "SubCentre",
-          "uuid": "1e3fc944-df47-40d3-9861-1ec65cbc951f",
-          "keyValues": [],
-          "concept": {
-            "name": "SubCentre",
-            "uuid": "86c39b77-f7cb-4fb1-9fa9-f3e855ced648",
-            "dataType": "Text"
-          },
-          "scFormat": {
-            "regex": "^[a-zA-Z ]+$",
-            "descriptionKey": "OnlyLettersAndSpaces"
-          },
-          "displayOrder": 4,
-          "mandatory": false
-        },
-        {
-          "name": "SupervisorsArea",
-          "uuid": "449c58e1-e855-4220-b68f-e8c06ad1d88a",
-          "keyValues": [],
-          "type": "SingleSelect",
-          "concept": {
-            "name": "SupervisorsArea",
-            "uuid": "a2240186-cfb7-4387-b109-654da8c089aa",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "name": "Sup1",
-                "uuid": "699cbfce-499d-4799-84e7-d429342a680f"
-              },
-              {
-                "name": "Sup2",
-                "uuid": "b927f38c-6e77-4227-8c06-09b2fc7da10a"
-              },
-              {
-                "name": "sup3",
-                "uuid": "78da7e2a-634c-4877-b98a-6d26c7eb135b"
-              }
-            ]
-          },
-          "displayOrder": 5,
-          "mandatory": true
-        },
+
         {
           "name": "Religion",
           "uuid": "ea53330d-7693-4ba9-91ab-007547a764d4",
