@@ -1,95 +1,44 @@
 {
   "organisation": "HRP Tracking",
   "catchments": [
-
     {
-        "name": "Supervisor's 1",
-        "uuid": "a58cba96-14e2-402a-9832-46ac86ea247d",
-        "type": "Supervisor's Area",
-        "addressLevels": [
-          {
-              "name": "Subcenter 1",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          },
-          {
-              "name": "Subcenter 2",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          },
-          {
-              "name": "Subcenter 3",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          }
-        ],
-      "comment": "Supervisor's Area"
+      "name": "Khajipeta",
+      "uuid": "6db4c708-37d2-44b4-a2c0-1589814ac7a6",
+      "type": "Centers",
+      "addressLevels": [
+        {
+          "name": "Khajipeta PHC",
+          "uuid": "e3349197-fbc4-4800-ad37-f990c5800d51",
+          "type": "PHC",
+          "level": 1
+        }
+      ]
     },
     {
-        "name": "Supervisor's 2",
-        "uuid": "a58cba96-14e2-402a-9832-46ac86ea247d",
-        "type": "Supervisor's Area",
-        "addressLevels": [
-          {
-              "name": "Subcenter 4",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          },
-          {
-              "name": "Subcenter 5",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          },
-          {
-              "name": "Subcenter 6",
-              "uuid": "f3019941-9554-448d-be2b-e4441020910a",
-              "type": "Subcenter",
-              "level": 1
-          }
-        ],
-      "comment": "Supervisor's Area"
+      "name": "T.Sundupalli",
+      "uuid": "e0c2b265-b15f-405b-9336-0c8a1472da4c",
+      "type": "Centers",
+      "addressLevels": [
+        {
+          "name": "T.Sundupalli PHC",
+          "uuid": "4e018388-caf7-4579-b2df-68976481da43",
+          "type": "PHC",
+          "level": 1
+        }
+      ]
     },
     {
-    "name": "Khajipeta PHC",
-    "uuid": "950ac21f-5836-4d0a-8f96-4412dd9bc51b",
-    "type": "PHC Area",
-    "addressLevels": [
-    {
-
-    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
-    },
-    {
-
-    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
-
-    },
-    {
-    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
-    },
-    {
-
-    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
-
-    },
-    {
-
-    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
-
-    },
-    {
-
-    "uuid": "f3019941-9554-448d-be2b-e4441020910a"
-
+      "name": "Duvvuru",
+      "uuid": "96ec4c4c-9a1a-4c2e-8163-e56365ee8d28",
+      "type": "Centers",
+      "addressLevels": [
+        {
+          "name": "Duvvuru PHC",
+          "uuid": "8f2d4b45-03c9-4c79-a336-5bcdaef8dd36",
+          "type": "PHC",
+          "level": 1
+        }
+      ]
     }
-    ],
-    "comment": "Khajipeta PHC"
-    }
-
-
   ]
 }

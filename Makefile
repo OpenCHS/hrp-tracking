@@ -15,7 +15,7 @@ help:
 
 
 port:= $(if $(port),$(port),8021)
-server:= $(if $(server),$(server),http://localhost)
+server:= $(if $(server),$(server),http://localhost)n
 
 su:=$(shell id -un)
 

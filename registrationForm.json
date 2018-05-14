@@ -22,8 +22,6 @@
           "displayOrder": 2,
           "mandatory": true
         },
-
-
         {
           "name": "Religion",
           "uuid": "ea53330d-7693-4ba9-91ab-007547a764d4",
@@ -46,7 +44,6 @@
           "displayOrder": 7,
           "mandatory": true
         },
-
         {
           "name": "Contact Number 2",
           "uuid": "ac48e8ce-df61-4fb6-be7c-e75d742481cd",
@@ -62,7 +59,6 @@
           "displayOrder": 8,
           "mandatory": true
         },
-
         {
           "name": "Contact Number",
           "uuid": "41116048-f3ee-4e03-9ddb-a431096c3ba9",

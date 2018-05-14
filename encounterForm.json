@@ -14,16 +14,6 @@
       "display": "General",
       "formElements": [
         {
-          "name": "ANC Visit Date",
-          "uuid": "01e3b6fa-920e-44b8-838d-954a823d640a",
-          "keyValues": [],
-          "concept": {
-            "uuid": "63a1b5f2-f672-444a-b44b-c80819d85040"
-          },
-          "displayOrder": 1,
-          "mandatory": false
-        },
-        {
           "name": "Systolic",
           "uuid": "31e01dfc-afaf-4e1a-a317-5e620275e12c",
           "keyValues": [],
@@ -84,51 +74,45 @@
           "mandatory": true
         }
       ]
-    }
-  ],
-
-
-    "formElementGroups" : [
-      {
-    "uuid": "93df146f-2f0d-4c4d-a0db-e8a27b97589e",
-    "name": "ANC Lab Test",
-    "displayOrder": 1,
-    "display": "Labs & Exam",
-    "formElements": [
-    {
-    "name": "Blood Examination Date",
-    "uuid": "3052a90f-7b06-4834-a335-576afb627a20",
-    "keyValues": [],
-    "concept": {
-    "uuid": "63a1b5f2-f672-444a-b44b-c80819d85040"
-    },
-    "displayOrder": 1,
-    "mandatory": false
     },
     {
-    "name": "Hb",
-    "uuid": "ea3c70b5-c21d-4021-99f7-81cfc3c41a26",
-    "keyValues": [],
-    "concept": {
-    "uuid": "f9ecabbc-2df2-4bfc-a6fa-aa417c50e11b"
-    },
-    "displayOrder": 3,
-    "mandatory": false
-    },
-    {
-    "name": "Blood Sugar",
-    "uuid": "f0c19c25-7f83-4cb4-a6af-4acf7926698c",
-    "keyValues": [],
-    "concept": {
-    "uuid": "d6bfbe2e-c301-4a26-8893-5236fd20f661"
-    },
-    "displayOrder": 4,
-    "mandatory": false
-    }
-
+      "uuid": "93df146f-2f0d-4c4d-a0db-e8a27b97589e",
+      "name": "ANC Lab Test",
+      "displayOrder": 1,
+      "display": "Labs & Exam",
+      "formElements": [
+        {
+          "name": "Blood Examination Date",
+          "uuid": "3052a90f-7b06-4834-a335-576afb627a20",
+          "keyValues": [],
+          "concept": {
+            "uuid": "63a1b5f2-f672-444a-b44b-c80819d85040"
+          },
+          "displayOrder": 1,
+          "mandatory": false
+        },
+        {
+          "name": "Hb",
+          "uuid": "ea3c70b5-c21d-4021-99f7-81cfc3c41a26",
+          "keyValues": [],
+          "concept": {
+            "uuid": "f9ecabbc-2df2-4bfc-a6fa-aa417c50e11b"
+          },
+          "displayOrder": 3,
+          "mandatory": false
+        },
+        {
+          "name": "Blood Sugar",
+          "uuid": "f0c19c25-7f83-4cb4-a6af-4acf7926698c",
+          "keyValues": [],
+          "concept": {
+            "uuid": "d6bfbe2e-c301-4a26-8893-5236fd20f661"
+          },
+          "displayOrder": 4,
+          "mandatory": false
+        }
       ]
-      }
-    ]
-  }
-
+    }
+  ]
+}
 
