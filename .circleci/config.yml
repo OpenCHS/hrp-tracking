@@ -15,10 +15,10 @@ jobs:
 
 workflows:
   version: 2
-  test_and_publish_and_deploy:
+  deploy_to_staging:
     jobs:
       - hold:
           type: approval
-      - deploy:
+      - deploy_to_staging:
           requires:
             - hold
