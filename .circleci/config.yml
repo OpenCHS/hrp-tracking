@@ -1,0 +1,24 @@
+version: 2
+jobs:
+  deploy:
+    docker:
+      - image: circleci/node:8.5.0
+
+    working_directory: ~/hrp-tracking
+
+    steps:
+      - checkout
+
+      - run: sudo apt-get -y install make
+
+      - run: make deploy token=$TOKEN server=https://staging.openchs.org port=443
+
+workflows:
+  version: 2
+  test_and_publish_and_deploy:
+    jobs:
+      - hold:
+          type: approval
+      - deploy:
+          requires:
+            - hold
