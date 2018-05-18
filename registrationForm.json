@@ -1,7 +1,7 @@
 {
   "name": "HRP Registration From",
   "uuid": "82fef014-731f-4622-84bc-d9f4cd601706",
-  "formType": "PregnantRegistration",
+  "formType": "IndividualProfile",
   "userUUID": "d92b4c62-8e37-4f99-8b09-53886e1c3a39",
   "formElementGroups": [
     {
@@ -45,12 +45,13 @@
           "mandatory": true
         },
         {
-          "name": "Contact Number 2",
+          "name": "Contact Number 1",
           "uuid": "ac48e8ce-df61-4fb6-be7c-e75d742481cd",
           "keyValues": [],
           "concept": {
-            "name": "Contact Number 2",
-            "uuid": "ada801f6-cb34-4ae2-9534-4bfd2b92ed8c"
+            "name": "Contact Number 1",
+            "uuid": "ada801f6-cb34-4ae2-9534-4bfd2b92ed8c",
+            "dataType": "Text"
           },
           "validFormat": {
             "regex": "^[0-9]{10}$",
@@ -60,12 +61,13 @@
           "mandatory": true
         },
         {
-          "name": "Contact Number",
+          "name": "Contact Number 2",
           "uuid": "41116048-f3ee-4e03-9ddb-a431096c3ba9",
           "keyValues": [],
           "concept": {
-            "name": "Contact Number",
-            "uuid": "239d3eef-d9e9-4a60-864a-7040ed6deabd"
+            "name": "Contact Number 2",
+            "uuid": "239d3eef-d9e9-4a60-864a-7040ed6deabd",
+            "dataType": "Text"
           },
           "validFormat": {
             "regex": "^[0-9]{10}$",
