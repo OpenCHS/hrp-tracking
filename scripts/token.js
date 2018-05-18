@@ -27,5 +27,5 @@ var authenticate = function (poolId, clientId, username, password) {
 if (process.argv[2] === '' || process.argv[2] == undefined) {
     console.log("Usage: node token.js <poolId> <clientId> <username> <password>");
 } else {
-    authenticate(process.argv[2], process.argv[3], process.argv[4], process.argv[5]);
+    authenticate(process.argv[2], process.argv[3], process.argv[4], process.env.TOKEN);
 }
