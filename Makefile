@@ -19,6 +19,9 @@ server:= $(if $(server),$(server),http://localhost)
 
 su:=$(shell id -un)
 
+auth:
+	$(if $(poolId),$(eval token:=$(shell node scripts/token.js $(poolId) $(clientId) $(username) $(password))))
+
 create_org:
 	psql -U$(su) openchs < create_organisation.sql
 
@@ -34,4 +37,4 @@ deploy_refdata: ## Creates reference data by POSTing it to the server
 	
 ## </refdata>
 
-deploy: deploy_refdata
+deploy: auth deploy_refdata

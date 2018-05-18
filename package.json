@@ -1,0 +1,13 @@
+{
+  "name": "hrp-tracking",
+  "version": "0.0.1",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenCHS/hrp-tracking.git"
+  },
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "amazon-cognito-identity-js": "1.28.0"
+  }
+}

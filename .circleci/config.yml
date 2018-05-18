@@ -10,8 +10,8 @@ jobs:
       - checkout
 
       - run: sudo apt-get -y install make
-
-      - run: make deploy token=$TOKEN server=https://staging.openchs.org port=443
+      - run: npm install
+      - run: make deploy poolId=ap-south-1_xyqqAVWOS clientId=1krsb4rucg4t6j4b7ighltfj62 username=admin password='$TOKEN' server=https://staging.openchs.org port=443
 
 workflows:
   version: 2
